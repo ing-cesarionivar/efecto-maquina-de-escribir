@@ -21,6 +21,15 @@ span {
     background: tomato;
     border-left: 1px solid #000000;
 
-    animation: maquina 5s infinite alternate;
+    animation: maquina 5s infinite alternate steps(30);
 }
 
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
