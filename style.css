@@ -1,0 +1,26 @@
+body {
+    font-family: monospace;
+    background-color: tomato;
+}
+
+.contenedor {
+    margin: auto;
+    display: table;
+}
+
+h1 {
+    float: left;
+    position: relative;
+    color: #ffffff;
+}
+
+span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: tomato;
+    border-left: 1px solid #000000;
+
+    animation: maquina 5s infinite alternate;
+}
+
